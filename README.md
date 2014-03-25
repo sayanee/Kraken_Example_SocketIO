@@ -140,3 +140,9 @@ After this, just run `npm start` in the command line.
 Visit [localhost:8000](http://localhost:8000/) in the browser and open up console log to see the streams of random numbers.
 
 <img src="socketio.gif" width=480 height=400>
+
+##References
+
+1. Stackoverflow - [Separating file server and socket.io logic in node.js](http://stackoverflow.com/questions/9709912/separating-file-server-and-socket-io-logic-in-node-js)
+1. Stackoverflow - [Loading socket.io as a module in KrakenJS/Express](http://stackoverflow.com/questions/22120696/loading-socket-io-as-a-module-in-krakenjs-express)
+1. Kraken issue - [Socket.IO example ](https://github.com/paypal/kraken-js/issues/39)
