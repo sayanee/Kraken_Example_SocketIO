@@ -78,7 +78,7 @@ $ cd Kraken_Example_SocketIO
       });
    }
 	```
-1. add file `lib/socket.js` which will edit a random number every half second
+1. add file `lib/socket.js` which will emit a random number every half second
 
 	```
 	module.exports.listen = function(app) {
