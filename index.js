@@ -27,10 +27,11 @@ app.requestAfterRoute = function requestAfterRoute(server) {
 
 
 if (require.main === module) {
-    kraken.create(app).listen(function (err) {
+    kraken.create(app).listen(function (err, server) {
         if (err) {
             console.error(err.stack);
         }
+        var io = require('./lib/socket').listen(server);
     });
 }
 

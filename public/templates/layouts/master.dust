@@ -4,11 +4,24 @@
     <meta charset="utf-8" />
     <title>{+title /}</title>
     <link rel="stylesheet" href="css/app.css" />
+    <style>
+        #circle {width: 100px; height: 100px; border-radius: 50%; background-color: coral; }
+    </style>
 </head>
 <body>
 <div id="wrapper">
     {+body /}
 </div>
+
+<script src="js/lib/socket.io.min.js"></script>
+<script>
+  var socket = io.connect('/');
+  socket.on('ping', function (data) {
+    console.log(data);
+    document.getElementById('circle').style.width = data + 'px';
+    document.getElementById('circle').style.height = data + 'px';
+  });
+</script>
 
 </body>
 </html>

@@ -19,7 +19,8 @@
         "less": "~1.6.1",
         "dustjs-linkedin": "~2.0.3",
         "dustjs-helpers": "~1.1.1",
-        "makara": "~0.3.0"
+        "makara": "~0.3.0",
+        "socket.io": "0.9.16"
     },
     "devDependencies": {
         "mocha": "~1.17.0",
@@ -29,7 +30,7 @@
         "grunt-dustjs": "~1.2.0",
         "grunt-contrib-clean": "~0.5.0",
         "grunt-contrib-jshint": "~0.6.4",
-        
+
         "grunt-mocha-cli": "~1.5.0",
         "grunt-copy-to": "0.0.10"
     }
